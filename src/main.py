@@ -147,7 +147,7 @@ def set_seed(seed):
     torch.cuda.manual_seed_all(seed)
 
 
-print('Hello~')
+print('Hello')
 if __name__ == '__main__':
     # set parameters
     device = torch.device("cuda:0" if (torch.cuda.is_available()) else "cpu")
